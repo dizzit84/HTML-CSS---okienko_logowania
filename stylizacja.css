@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-11-20, 23:55:50
+    Author     : E530
+*/
+body
+{
+    background-image: url(img/hexellence.png);
+    /*background from site*/
+    font-size: 20px;
+}
+#container
+{
+    background-color: #FFFFFF;
+    width: 300px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    -webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+    -moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+    box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+    /* www.cssmatic.com/box-shadow */   
+    border-radius: 10px;    
+}
+input[type=text], input[type=password]
+{
+    width: 300px;
+    height: 50px;
+    background-color: #efefef;
+    color: #666;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top:10px;
+    outline: none;
+}
+
+
+
+
+input[type=text]:focus, input[type=password]:focus
+{
+    box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+    border: 2px solid #a5cda5;
+    background-color: #e9f3e9;
+    color: #428c42;
+    
+}
+
+input[type=submit]
+{
+    width:300px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #36b03c;
+    color: white;
+    padding: 15px 10px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+input[type=submit]:hover
+{
+    background-color: #25a02b;
+}
+input[type=submit]:focus
+{
+    outline: none;
+    box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+}
+
+
+input[type=button]
+{
+    width:300px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #3764B2;
+    color: white;
+    padding: 15px 10px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type=button]:hover
+{
+    background-color: #2653a1;
+}
+input[type=button]:focus
+{
+    outline: none;
+    box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+}
+
+input::-webkit-input-placeholder {color:#999;}
+input:focus::-webkit-input-placeholder {color:#428c42;}
+input:-moz-placeholder {color:#999;}
+input:focus:-moz-placeholder {color:#428c42;}
+input::-moz-placeholder {color:#999;}
+input:focus::-moz-placeholder {color:#428c42;}
+input:-ms-input-placeholder {color:#999;}
+input:focus:-ms-input-placeholder {color:#428c42;}
